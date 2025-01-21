@@ -20,7 +20,7 @@
 - ```pip install requests python-dotenv```
 
 ### Install electron
-- ```Navigate to ```frontend```
+- Navigate to ```frontend```
 - ```npm install electron --save-dev```
 
 ## Setup
