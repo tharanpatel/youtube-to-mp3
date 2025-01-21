@@ -47,7 +47,7 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 - Change ```var pathToPythonFile``` to point to the absolute address of ```main.py``` in ```backend```
 
 ### Create electron app
-- ```Navigate to ```frontend```
+- Navigate to ```frontend```
 - ```npm install --save-dev @electron-forge/cli```
 - ```npx electron-forge import```
 - ```npm run make```
