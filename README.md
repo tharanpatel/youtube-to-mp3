@@ -51,11 +51,9 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 - ```npm install --save-dev @electron-forge/cli```
 - ```npx electron-forge import```
 - ```npm run make```
-- An executable file contained in ```out/ytdl-frontend``` should now exist which can be used.
+- An executable file contained in ```out/ytdl-frontend``` should now exist which is the runnable application.
 
-# Done! :smile:
-
-# Built With
+# Built With :smile:
 
 <table>
     <tr>
