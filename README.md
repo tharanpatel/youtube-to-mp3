@@ -59,7 +59,7 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 
 <table>
     <tr>
-    <td valign="top"><img src="https://e7.pngegg.com/pngimages/957/673/png-clipart-computer-icons-electron-microscope-electron-javascript-logo-electron.png" alt="electron logo" width="150"/></td>
+    <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png" alt="electron logo" width="150"/></td>
     <td><img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png" alt="python logo" width="150"/></td>
     </tr>
 </table>
