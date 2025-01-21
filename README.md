@@ -1,6 +1,4 @@
-<p align="center">
-![YT-DLP](https://github.com/user-attachments/assets/8f3e5ca2-e1a9-4164-8c94-ae9c51abb1a6)
-</p>
+![YT-DLP](https://github.com/user-attachments/assets/8f3e5ca2-e1a9-4164-8c94-ae9c51abb1a6){:style="display:block; margin-left:auto; margin-right:auto"}
 
 # Prerequisites
 
