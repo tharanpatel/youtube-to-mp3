@@ -5,6 +5,8 @@
 ## Prerequisites
 
 - Firefox browser installed with a logged-in youtube account.
+- Discord account
+- Youtube account
 
 ## Setup
 
