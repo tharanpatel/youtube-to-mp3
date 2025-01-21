@@ -1,3 +1,6 @@
+
+![YT-DLP](https://github.com/user-attachments/assets/8f3e5ca2-e1a9-4164-8c94-ae9c51abb1a6)
+
 # Prerequisites
 
 - Firefox browser while you are logged into your youtube account
