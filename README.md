@@ -4,24 +4,7 @@
 
 ## Prerequisites
 
-- Firefox browser while you are logged into your youtube account
-
-## Installation
-
-### Install Chocolatey
-- Run ```Get-ExecutionPolicy```. If it returns ```Restricted```, then run ```Set-ExecutionPolicy AllSigned``` or ```Set-ExecutionPolicy Bypass -Scope Process```
-- Now run ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
-
-### Install yt-dlp using Chocolatey
-- Install yt-dlp and ffmpeg using ```choco install ffmpeg yt-dlp```
-- Verify installation using ```yt-dlp --version```
-
-### Install Python dependencies
-- ```pip install requests python-dotenv```
-
-### Install electron
-- Navigate to ```frontend```
-- ```npm install electron --save-dev```
+- Firefox browser installed with a logged-in youtube account.
 
 ## Setup
 
@@ -49,6 +32,23 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 ### Change path to main.py
 - Navigate to ```frontend -> index.html -> line 34```
 - Change ```var pathToPythonFile``` to point to the absolute address of ```main.py``` in ```backend```
+
+## Installation
+
+### Install Chocolatey
+- Run ```Get-ExecutionPolicy```. If it returns ```Restricted```, then run ```Set-ExecutionPolicy AllSigned``` or ```Set-ExecutionPolicy Bypass -Scope Process```
+- Now run ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
+
+### Install yt-dlp using Chocolatey
+- Install yt-dlp and ffmpeg using ```choco install ffmpeg yt-dlp```
+- Verify installation using ```yt-dlp --version```
+
+### Install Python dependencies
+- ```pip install requests python-dotenv```
+
+### Install electron
+- Navigate to ```frontend```
+- ```npm install electron --save-dev```
 
 ### Create electron app
 - Navigate to ```frontend```
