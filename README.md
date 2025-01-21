@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/8f3e5ca2-e1a9-4164-8c94-ae9c51abb1a6">
 </p>
 
-# Prerequisites
+## Prerequisites
 
 - Firefox browser while you are logged into your youtube account
 
@@ -23,7 +23,7 @@
 - ```Navigate to ```frontend```
 - ```npm install electron --save-dev```
 
-# Setup
+## Setup
 
 There are a few enviroment variables that need to be changed for the program to function.
 
