@@ -17,7 +17,6 @@
 
 ### Install electron
 - ```Navigate to ```frontend```
-- ```npm init```
 - ```npm install electron --save-dev```
 
 # Setup
@@ -45,7 +44,7 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 
 ### Change path to main.py
 - Navigate to ```frontend -> index.html -> line 34```
-- Change ```var pathToPythonFile``` to point to the absolute address of ``main.py``` in ```backend```
+- Change ```var pathToPythonFile``` to point to the absolute address of ```main.py``` in ```backend```
 
 ### Create electron app
 - ```Navigate to ```frontend```
