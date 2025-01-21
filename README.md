@@ -60,6 +60,6 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 <table>
     <tr>
     <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png" alt="electron logo" width="150"/></td>
-    <td><img src="https://blog.accredian.com/wp-content/uploads/2019/04/Python-logo.jpg" alt="python logo" width="150"/></td>
+    <td><img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="python logo" width="150"/></td>
     </tr>
 </table>
