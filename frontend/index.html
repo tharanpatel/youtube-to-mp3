@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+    <title>Youtube Converter</title>
+  </head>
+  <body>
+    <h1>ytdl to mp3</h1>
+    <div class="form">
+        <form>
+            <input type="text" id="url" name="url" placeholder="enter url">
+        </form>
+    </div>
+    <div class="buttonGroup">
+        <button type="button" id="convert">convert</button> 
+        <button type="button" id="update">update ytdlp</button>
+    </div>
+  </body>
+  <script src="./renderer.js"></script>
+  <script type="text/javascript">
+        const exec  = require('child_process').exec;
+
+        function execute(command, callback) {
+            exec(command, (error, stdout, stderr) => { 
+                callback(stdout); 
+            });
+        };
+        
+        // call discord.py
+        function convert() {
+            var url = document.getElementById('url').value;
+            var pathToPyMainFile = String.raw`py C:\Users\tharan\Documents\github\youtube-to-mp3\backend\main.py`
+            var unescapedPath = String.raw`${pathToPyMainFile} ${url}`;
+            execute(unescapedPath, (output) => {
+            console.log(`Executing python file using: ${unescapedPath}`);
+            console.log(output)
+            });
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const myButton = document.getElementById('convert');
+            myButton.addEventListener('click', () => {
+            convert();
+            });
+        });
+
+        // updates yt-dlp
+        function update() {
+            var updateCommand = "py -m pip install -U yt-dlp";
+            execute(updateCommand, (output) => {
+            console.log(`Executing command: ${updateCommand}`);
+            console.log(output)
+            });
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const myButton = document.getElementById('update');
+            myButton.addEventListener('click', () => {
+            update();
+            });
+        });
+
+    </script>
+</html>

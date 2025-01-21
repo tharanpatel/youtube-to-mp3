@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+input {
+    width: 500px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+div.buttonGroup {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #ff0033;
+}
+
+button:active {
+    background-color: #ff003390;
+    transform: translateY(1px);
+}
