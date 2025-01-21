@@ -54,3 +54,12 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 - An executable file contained in ```out/ytdl-frontend``` should now exist which can be used.
 
 # Done! :smile:
+
+# Built With
+
+<table>
+    <tr>
+    <td valign="top"><img src="https://static-00.iconduck.com/assets.00/electron-icon-1889x2048-istwe9sw.png" alt="electron logo" width="150"/></td>
+    <td><img src="https://banner2.cleanpng.com/20180325/kpq/av0y5r3i9.webp" alt="python logo" width="150"/></td>
+    </tr>
+</table>
