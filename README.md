@@ -1,6 +1,6 @@
-<figure markdown="1">
-![YT-DLP](https://github.com/user-attachments/assets/8f3e5ca2-e1a9-4164-8c94-ae9c51abb1a6)
-</figure>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/user-attachments/assets/8f3e5ca2-e1a9-4164-8c94-ae9c51abb1a6">
+</p>
 
 # Prerequisites
 
