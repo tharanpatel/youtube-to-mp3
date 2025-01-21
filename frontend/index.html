@@ -31,8 +31,8 @@
         // call discord.py
         function convert() {
             var url = document.getElementById('url').value;
-            var pathToPyMainFile = String.raw`py C:\Users\tharan\Documents\github\youtube-to-mp3\backend\main.py`
-            var unescapedPath = String.raw`${pathToPyMainFile} ${url}`;
+            var pathToPyMainFile = String.raw`ABSOLUTE-PATH-TO-MAIN.PY`
+            var unescapedPath = String.raw`py ${pathToPyMainFile} ${url}`;
             execute(unescapedPath, (output) => {
             console.log(`Executing python file using: ${unescapedPath}`);
             console.log(output)
