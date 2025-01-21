@@ -10,7 +10,7 @@
 
 There are a few enviroment variables that need to be changed for the program to function.
 
-## Populate environment folder
+### Populate environment folder
 - Create a ```.env``` file in  the ```backend``` folder and populate it with the following:
 ```
 DISCORD_TOKEN="YOUR DISCORD TOKEN HERE"
