@@ -5,7 +5,7 @@
 ## Prerequisites
 - Discord account
 - Youtube account
-- Firefox browser with youtube logged in.
+- Firefox browser with Youtube logged in.
 
 ## Setup
 
