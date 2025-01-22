@@ -27,7 +27,7 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 - Log into discord on the web browser
 - Enter developer tools
 - Navigate to Network section
-- Send a message on the web browser to the server
+- Send a message on the web browser to the desired channel
 - Find the corresponding POST request and use the URL used for the POST request.
 
 ### Change path to main.py
