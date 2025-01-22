@@ -18,12 +18,12 @@ DISCORD_TOKEN="YOUR DISCORD TOKEN HERE"
 DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 ```
 
-### How to get your discord token
+### How to get your Discord token
 - Log into discord on the web browser
 - Enter developer tools
 - Navigate to ```Application -> Local Storage -> Discord.com -> Filter -> type 'token' -> use the corresponding value```
 
-### How to get your discord channel url
+### How to get your Discord channel url
 - Log into discord on the web browser
 - Enter developer tools
 - Navigate to Network section
@@ -47,11 +47,11 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 ### Install Python dependencies
 - ```pip install requests python-dotenv```
 
-### Install electron
+### Install Electron
 - Navigate to ```frontend```
 - ```npm install electron --save-dev```
 
-### Create electron app
+### Create Electron app
 - Navigate to ```frontend```
 - ```npm install --save-dev @electron-forge/cli```
 - ```npx electron-forge import```
