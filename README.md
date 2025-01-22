@@ -3,10 +3,9 @@
 </p>
 
 ## Prerequisites
-
-- Firefox browser installed with a logged-in youtube account.
 - Discord account
 - Youtube account
+- Firefox browser with youtube logged in.
 
 ## Setup
 
