@@ -31,7 +31,7 @@ DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
 - Find the corresponding POST request and use the URL used for the POST request.
 
 ### Change path to main.py
-- Navigate to ```frontend -> index.html -> line 34```
+- Navigate to ```frontend -> buttons.js -> line 12```
 - Change ```var pathToPythonFile``` to point to the absolute address of ```main.py``` in ```backend```
 
 ## Installation
