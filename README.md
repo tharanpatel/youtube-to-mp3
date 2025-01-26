@@ -1,6 +1,38 @@
-# Prerequisites
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/929ae3cf-773c-42bd-aa6a-4d3b71ef259e">
+</p>
 
-- Firefox browser while you are logged into your youtube account
+## Prerequisites
+- Discord account
+- Youtube account
+- Firefox browser with Youtube logged in.
+
+## Setup
+
+There are a few enviroment variables that need to be changed for the program to function.
+
+### Populate environment folder
+- Create a ```.env``` file in  the ```backend``` folder and populate it with the following:
+```
+DISCORD_TOKEN="YOUR DISCORD TOKEN HERE"
+DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
+```
+
+### How to get your Discord token
+- Log into discord on the web browser
+- Enter developer tools
+- Navigate to ```Application -> Local Storage -> Discord.com -> Filter -> type 'token' -> use the corresponding value```
+
+### How to get your Discord channel url
+- Log into discord on the web browser
+- Enter developer tools
+- Navigate to Network section
+- Send a message on the web browser to the desired channel
+- Find the corresponding POST request and use the URL used for the POST request.
+
+### Change path to main.py
+- Navigate to ```frontend -> index.html -> line 34```
+- Change ```var pathToPythonFile``` to point to the absolute address of ```main.py``` in ```backend```
 
 ## Installation
 
@@ -12,30 +44,25 @@
 - Install yt-dlp and ffmpeg using ```choco install ffmpeg yt-dlp```
 - Verify installation using ```yt-dlp --version```
 
-### Install python dependencies
+### Install Python dependencies
 - ```pip install requests python-dotenv```
 
-# Setup
+### Install Electron
+- Navigate to ```frontend```
+- ```npm install electron --save-dev```
 
-There are a few enviroment variables that need to be changed for the program to function.
+### Create Electron app
+- Navigate to ```frontend```
+- ```npm install --save-dev @electron-forge/cli```
+- ```npx electron-forge import```
+- ```npm run make```
+- An executable file contained in ```out/ytdl-frontend``` should now exist which is the runnable application.
 
-## Populate environment folder
-- Create a ```.env``` file in  the ```backend``` folder and populate it with the following:
-```
-DISCORD_TOKEN="YOUR DISCORD TOKEN HERE"
-DISCORD_CHANNEL_URL="YOUR DISCORD CHANNEL URL HERE"
-```
+# Built With :smile:
 
-### How to get your discord token
-- Log into discord on the web browser
-- Enter developer tools
-- Navigate to ```Application -> Local Storage -> Discord.com -> Filter -> type 'token' -> use the corresponding value```
-
-### How to get your discord channel url
-- Log into discord on the web browser
-- Enter developer tools
-- Navigate to Network section
-- Send a message on the web browser to the server
-- Find the corresponding POST request and use the URL used for the POST request.
-
-# Done! :smile:
+<table>
+    <tr>
+    <td valign="top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png" alt="electron logo" width="150"/></td>
+    <td><img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="python logo" width="150"/></td>
+    </tr>
+</table>
