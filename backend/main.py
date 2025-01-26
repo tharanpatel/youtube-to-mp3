@@ -37,7 +37,7 @@ def main():
         res = requests.post(url=DISCORD_CHANNEL_URL, files=mp3_file, headers=headers)
         mp3_file["file"].close()
         remove_file(file_name=mp3_file_name[0])
-        print("\033[32mSuccess!\033[0m")  # colours terminal output green
+        print("\033[32mSuccess!\033[0m")
     except:
         print(res.json())
         print("\033[31mDiscord upload failed.\033[0m")
